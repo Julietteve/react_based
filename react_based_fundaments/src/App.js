@@ -1,26 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Fruits from './Components/CreateClassState'
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h2>YOU CAN DO IT</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Fruits name="Watermelon" price="10"></Fruits>
+        <Fruits name="Kiwi" price="14"></Fruits>
     </div>
   );
 }

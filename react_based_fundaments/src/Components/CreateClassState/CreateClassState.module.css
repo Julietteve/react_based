@@ -1,0 +1,30 @@
+.fruits{
+    padding: 1 em;
+    border: 1px solid black;
+    border-Radius: 0.5em;
+    margin-Bottom: 1em;
+    width: 15%;
+    background: red;
+    color: white; 
+    text-Align: center;
+    transition: all 250ms ease-out; /*transition*/ 
+  }
+
+  .fruits-active{
+    background: green;
+    color: white;
+  }
+
+  .fruits-none{
+    background : white;
+    color: black;
+  }
+
+  /*MODULES CSS
+    used to avoid repeating names of classes
+    VERY IMPORTANT
+    -File's name: nameOfYourSheet.MODULE.CSS
+    -Import to your .js file :: import name from './nameOfYourSheet.css'
+    -Then use the name you choose to call the class. If it's a single word class, you must use dot notation=== .name.card. But if the class's name has got more than one word, you may use []== style['card-name'] 
+  */
+  
